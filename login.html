@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>云马数据大屏登录</title>
+    <title>凤凰-云马数据大屏登录</title>
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
   </head>
   <body>
     <div class="wrapper">
       <div class="container">
-        <h1>云马数据</h1>
+        <h1>凤凰-云马数据</h1>
         <form class="form">
           <input id="username" type="text" placeholder="用户名" />
           <input id="password" type="password" placeholder="密码" />
@@ -26,7 +26,7 @@
         var password = $("#password").val();
         if (username && password) {
           $.ajax({
-            url: "http://ymzc-api.fintechzh.com/toLogin",
+            url: "https://api.zuche.miway.com/toLogin",
             type: "POST",
             context: document.body,
             dataType: "JSON",

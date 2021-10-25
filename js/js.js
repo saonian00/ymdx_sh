@@ -12,8 +12,8 @@
   }, 5000);
   function largeScreen() {
     $.ajax({
-      // url: "https://api.zuche.miway.com/largeScreen",
-      url: "http://ymzc-api.fintechzh.com/largeScreenToShanghai",
+      url: "https://api.zuche.miway.com/largeScreenToShanghai",
+      // url: "http://ymzc-api.fintechzh.com/largeScreenToShanghai",
       type: "POST",
       context: document.body,
       dataType: "JSON",

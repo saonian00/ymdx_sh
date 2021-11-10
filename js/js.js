@@ -217,7 +217,7 @@
             splitNumber: 15,
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 8,
+              fontSize: 6,
             },
           },
         },
@@ -229,7 +229,7 @@
             show: true,
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 12,
+              fontSize: 10,
             },
           },
           axisTick: {
@@ -317,7 +317,7 @@
             splitNumber: 15,
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 8,
+              fontSize: 6,
             },
           },
         },
@@ -330,7 +330,7 @@
             show: true,
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 12,
+              fontSize: 10,
             },
           },
           axisTick: {
@@ -397,7 +397,7 @@
         data: ["新增", "续租"],
         textStyle: {
           color: "rgba(255,255,255,.5)",
-          fontSize: 12,
+          fontSize: 10,
         },
       },
       grid: {
@@ -415,7 +415,7 @@
             rotate: 20,
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 8,
+              fontSize: 6,
             },
             interval: 0,
           },
@@ -445,7 +445,7 @@
           axisLabel: {
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 12,
+              fontSize: 10,
             },
           },
 
@@ -602,7 +602,7 @@
             splitNumber: 15,
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 8,
+              fontSize: 6,
             },
           },
         },
@@ -615,7 +615,7 @@
             show: true,
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 12,
+              fontSize: 10,
             },
           },
           axisTick: {
@@ -691,7 +691,7 @@
             rotate: 20,
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 10,
+              fontSize: 8,
             },
             interval: 0,
           },
@@ -721,7 +721,7 @@
           axisLabel: {
             textStyle: {
               color: "rgba(255,255,255,.6)",
-              fontSize: 12,
+              fontSize: 10,
             },
           },
 
@@ -802,7 +802,7 @@
           left: "center",
           textStyle: {
             color: "#fff",
-            fontSize: 16,
+            fontSize: '0.2rem',
           },
         },
       ],
@@ -824,7 +824,7 @@
         }),
         textStyle: {
           color: "rgba(255,255,255,.5)",
-          fontSize: 12,
+          fontSize: 10,
         },
       },
       series: [
@@ -874,7 +874,7 @@
           left: "center",
           textStyle: {
             color: "#fff",
-            fontSize: 16,
+            fontSize: '0.2rem',
           },
         },
       ],
@@ -895,7 +895,7 @@
         }),
         textStyle: {
           color: "rgba(255,255,255,.5)",
-          fontSize: 12,
+          fontSize: 10,
         },
       },
       series: [
